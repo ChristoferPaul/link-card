@@ -38,7 +38,7 @@ html {
 
 dt {
   display: inline-block;
-  font: italic 100%/1 Georgia, serif;
+  font: 100%/1 Georgia, serif;
   font-size: .875rem;
   color: #512200;
   float: left;
@@ -59,12 +59,16 @@ dd {
 }
 
 .link-card:hover {
+  background-color: #f0eee8;
+}
+
+.link-card a:hover {
   background-color: #cabdb2;
 }
 
 .button {
   display: inline-block;
-  padding: .5em .75em;
+  padding: .4em .75em .5em;
   background-color: #785439;
   border-radius: 4px;
   font: bold 100%/1 Dosis, sans-serif;
@@ -80,6 +84,10 @@ dd {
 
 .btn {
   display: block;
+}
+
+.button:hover {
+  background-color: #512200;
 }
 
 .list {
